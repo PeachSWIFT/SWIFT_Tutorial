@@ -6,6 +6,7 @@ First, of course, we will start by teaching you how to create a simple program t
 The command for output is `println()`. Therefore, to output "Hello, World!", we only need this:
 ```println("Hello, World!")
 ```
+
 That's it! That's the whole program!
 
 ### [Values: Constants and Variables](#values)
