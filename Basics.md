@@ -85,3 +85,17 @@ var emptyDictionary = [:]
 // Explicit option
 var emptyDictionary = [String: Float]()
 ```
+
+```Swift 
+Extensions allow us to create new functionality to current classes, structures or enumerations. Basically retroactive modeling of original source code for our needs. 
+
+extension SomeType {
+    // new functionality to add to SomeType goes here
+}
+
+extension Double { // mess with double method in swift BECAUSE WE CAN!
+  var mm: Double { return self / 1_000.0 }   // mess with mm
+  }
+let oneInch = 25.4.mm
+println("One inch is \(oneInch) meters")   // prints "One inch is 0.0254 meters"
+```
