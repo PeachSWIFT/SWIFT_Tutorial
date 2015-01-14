@@ -35,6 +35,13 @@ If that didn't make much sense, this example might:
 let words = "On June 12th, I am turning "
 let age = 24
 let sentence = words + String(age)
-//I expect birthday presents from everyone this year
+//I expect birthday presents from everyone this year -Shosh
 ```
 
+However, there is another way to include values in strings--by simply putting the values in parentheses, and putting a backslash `\` before the parentheses, like so:
+```swift
+let daysPerWeek = 5
+let totalWeeks = 12
+let weeksWDI = "WDI is \(totalWeeks) weeks long."
+let daysWDI = "We will spend \(totalWeeks * daysPerWeek) total days at GA."
+```
