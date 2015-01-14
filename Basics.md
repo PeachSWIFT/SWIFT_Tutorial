@@ -1,6 +1,6 @@
 # Basic Syntax
 
-### ["Hello, world!"](#helloworld)
+### "Hello, world!" [HelloWorld]
 
 First, of course, we will start by teaching you how to create a simple program that outputs "Hello, World!"
 The command for output is `println()`. Therefore, to output "Hello, World!", we only need this:
@@ -8,7 +8,7 @@ The command for output is `println()`. Therefore, to output "Hello, World!", we 
 
 That's it! That's the whole program!
 
-### [Values: Constants and Variables](#values)
+### Values: Constants and Variables [Values]
 
 Something unique to Swift is the capability of declaring not only variables, but **constants**. This allows you to create values that stay the same and are unable to change, no matter the code that follows. This means that if you accidentally do something that might change your value, it'll be all, "Nice try, fool!" and not listen. It also means that no one can fuck with your shit. Therefore, constants are a lot safer.
 
