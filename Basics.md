@@ -23,10 +23,10 @@ let integerConstant = 50
 When you give Swift a value, it will always infer its type. However, if you would like to declare your value as a specific data type, you can do so by adding a colon after the value name and typing the value type before the equals sign. Like so:
 ```swift
 let implicitString = "This is obviously a string because there are quotes"
-let implicitInteger = 52 \\ This is inferred as an integer because it is written as a whole number
-let implicitDouble = 67.0 \\ This is inferred as a double because it has a decimal point
-let explicitString: String = 51 \\ This specifies what would usually be an integer as a string
-let explicitDouble: Double = 72 \\ This specifies that this decimal-point-less number should be treated as a double rather than an integer
+let implicitInteger = 52 // This is inferred as an integer because it is written as a whole number
+let implicitDouble = 67.0 // This is inferred as a double because it has a decimal point
+let explicitString: String = 51 // This specifies what would usually be an integer as a string
+let explicitDouble: Double = 72 // This specifies that this decimal-point-less number should be treated as a double rather than an integer
 ```
 
 However, much like with our other languages, if you have a value that is one type and you want to combine it with another type, that don't fly. If you need to do this, you can modify the type within the context in which you are inserting this value.
@@ -35,5 +35,6 @@ If that didn't make much sense, this example might:
 let words = "On June 12th, I am turning "
 let age = 24
 let sentence = words + String(age)
+//I expect birthday presents from everyone this year
 ```
 
