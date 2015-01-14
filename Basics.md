@@ -45,3 +45,43 @@ let totalWeeks = 12
 let weeksWDI = "WDI is \(totalWeeks) weeks long."
 let daysWDI = "We will spend \(totalWeeks * daysPerWeek) days total at GA."
 ```
+
+### Arrays
+
+Arrays store many values in one. If you've already done object-oriented programming, you know the drill:
+```swift
+var members = ["Alvin", "Joel", "Shoshanah"]
+
+var members[2] = "Shoshanah Weisinger" // array now contains ["Alvin", "Joel", "Shoshanah Weisinger"]
+```
+
+To initialize an empty array, you can either initialize it implicitly with a pair of square brackets `[]` or you can declare the value type explicitly:
+```swift
+// Implicit option:
+var emptyArray = []
+
+// Explicit option:
+var emptyArray = [String]()
+```
+
+### Dictionaries
+
+In Swift, what we usually might call "values" or "hashes" are called **dictionaries**, and the brackets are *square* `[]` rather than curly `{}`.
+```swift
+var hometowns = [
+  "Shoshanah": "Los Angeles",
+  "Joel": "Amsterdam",
+  "Alvin": "New York"
+]
+
+hometowns["Alvin"] = "" // updates Alvin's hometown
+```
+
+To initialize an empty dictionary, similar to how you do it with arrays, you can either initialize it implicitly with a pair of square brackets with a colon in the middle `[:]` or you can declare the value type explicitly:
+```swift
+// Implicit option:
+var emptyDictionary = [:]
+
+// Explicit option
+var emptyDictionary = [String: Float]()
+```
