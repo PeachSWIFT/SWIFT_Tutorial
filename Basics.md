@@ -43,5 +43,5 @@ However, there is another way to include values in strings--by simply putting th
 let daysPerWeek = 5
 let totalWeeks = 12
 let weeksWDI = "WDI is \(totalWeeks) weeks long."
-let daysWDI = "We will spend \(totalWeeks * daysPerWeek) total days at GA."
+let daysWDI = "We will spend \(totalWeeks * daysPerWeek) days total at GA."
 ```
