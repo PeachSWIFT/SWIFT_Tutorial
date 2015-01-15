@@ -30,10 +30,16 @@ extension Double { // mess with double method in swift BECAUSE WE CAN!
 let oneInch = 25.4.mm
 println("One inch is \(oneInch) meters")   // prints "One inch is 0.0254 meters"
 ```
-### Emoji
+### Unicode Characters
+
+#### Emoji
 
 Xcode displays emoji's! OH HAPPY DAY!
 
 For example, if you did var smiley = 😄, and then println(smiley), it will print 😄!
 
 You can even use them as variables and declare var 😄 = "smiley", where println(😄) will print "smiley".
+
+#### Other unicode characters
+
+You can also declare other unicode characters, such as pi or a Chinese character, as variables and put them in your code.
