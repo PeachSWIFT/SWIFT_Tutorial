@@ -1,4 +1,4 @@
-![SWIFT MOFOS](http://dsource.co/wp-content/uploads/2014/09/imageC.png)
+![SWIFT MOFOS]()
 
 # Swift Tutorial
 *by [Alvin Liang](https://github.com/liangalvin), [Joel Konijn](https://github.com/peer00), and [Shoshanah Weisinger](https://github.com/shoshkabob)*
