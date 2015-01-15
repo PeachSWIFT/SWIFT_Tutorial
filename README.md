@@ -1,3 +1,5 @@
+![SWIFT MOFOS](http://dsource.co/wp-content/uploads/2014/09/imageC.png)
+
 # Swift Tutorial
 *by Alvin Liang, Joel Konjin, and Shoshanah Weisinger*
 
