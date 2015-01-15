@@ -1,5 +1,14 @@
 # New Concepts
 
+  * [Override](./NewConcepts.md#override)
+  * [Classes](./NewConcepts.md#classes)
+  * [Closures](./NewConcepts.md#closures)
+  * [Tuples](./NewConcepts.md#tuples)
+  * [Extensions](./NewConcepts.md#extensions)
+  * [Unicode Characters](./NewConcepts.md#unicode-characters)
+    * [Emoji](./NewConcepts.md#emoji)
+    * [Other unicode characters](./NewConcepts.md#other-unicode-characters)
+
 ### Override
 
 Sometimes, we want to create a kind of exception to a certain function. For this, we use `override`. **NOTE:** If you create a function that overrides another function *without* `override`, it is detected as an error.
@@ -121,3 +130,6 @@ You can even use them as variables and declare var 😄 = "smiley", where printl
 #### Other unicode characters
 
 You can also declare other unicode characters, such as pi or a Chinese character, as variables and put them in your code.
+
+
+[back to index](./README.md)
