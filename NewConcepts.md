@@ -29,4 +29,5 @@ println("One inch is \(oneInch) meters")   // prints "One inch is 0.0254 meters"
 ### Emoji
 
 Xcode displays emoji's! OH HAPPY DAY!
-For example, if you did var smiley = 😃� = "Smiley", println(smiley) will print 😃!�
+For example, if you did var smiley = 😄, and then println(smiley), it will print 😄!
+You can even use them as variables and declare var 😄 = "smiley", where println(😄) will print "smiley".
