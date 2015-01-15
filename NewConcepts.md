@@ -1,5 +1,62 @@
 # New Concepts
 
+### Override
+
+Sometimes, we want to create a kind of exception to a certain function. For this, we use `override`. **NOTE:** If you create a function that overrides another function *without* `override`, it is detected as an error.
+What a coincidence! The perfect example can be seen through...
+
+### Classes
+
+Use `class` followed by a name to create a **class**. This is the same as **constructors** in JavaScript. A property declaration in a class is written the same way as a constant or variable declaration (i.e. just `var name` or `let name`), except that it is in the context of a class and is called outside the class as `class.name`. Likewise, method and function declarations are written the same way.
+
+Use `init` with key/value pairs in parentheses folowed by curly braces `{}` to define initial parameters when declaring a new instance of a class. It is within the `init` function that we declare self-referential properties from parameters using `self` (i.e. `self.name`).
+```swift
+// Creating a Shape class
+class Shape {                           // Name should be capitalized
+    var numberOfSides = 0   
+    
+    init(name: String) {                // Explicitly declare type of data
+       self.name = name
+    }
+    
+    func simpleDescription() -> String {
+        return "\(name): A shape with \(numberOfSides) sides."
+    }
+}
+
+var octagon = Shape(name: "Octagon")    // Creates a new shape called octagon with name set to "Octagon"
+octagon.numberOfSides = 8               // Sets numberOfSides property of octagon
+println(octagon.simpleDescription())    // Prints "Octagon: A shape with 8 sides."
+```
+
+You can also create **subclasses**, which are specific types of an already created class. YOu can do this by putting a colon `:` after the class name, followed by a space and the name of the parent class.
+```swift
+// For instance, a subclass of Shape:
+class Square: Shape {
+    var sideLength: Double
+    
+    init(sideLength: Double, name: String) {
+        self.sideLength = sideLength
+        self.name = name
+        numberOfSides = 4
+    }
+    
+    func area() -> Double {
+        return sideLength * sideLength
+    }
+    
+    override func simpleDescription() -> String {               // Notice the override!
+        return "A square with sides of length \(sideLength)"
+    }
+}
+
+let square = Square(sideLength: 6.1, name: "Boss-ass Square")
+println("\(square.name): \(square.simpleDescription()) and an area of \(square.area()).")
+// Prints "Boss-ass Square: A square with sides of length 6.1 and an area of 37.21."
+
+```
+
+
 ### Closures
 
 Closures are like methods: they're functions that manipulate certain values. The code in a closure has access to things like variables and functions that were available in the scope where the closure was created, even if the closure is in a different scope when it is executed (like with nested functions). You can write a closure without a name by surrounding code with curly braces `{}`. Use `in` to separate the arguments and return type from the body. 
@@ -24,9 +81,6 @@ You can refer to parameters by number instead of by name—this approach is espe
 let sortedNumbers = sorted(numbers) { $0 > $1 }
 sortedNumbers
 ```
-### Classes
-
-
 
 ### Tuples
 
