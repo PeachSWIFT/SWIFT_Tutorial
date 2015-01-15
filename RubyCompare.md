@@ -67,16 +67,16 @@ end
 ```
 ####Swift
 ```swift
-let age = 24
+let lang = "swift"
 
-if age < 21 {
-  println("You can't drink alcohol!")
+if lang === "swift" {
+  println("Woohoo!")
 }  
-else if age == 21 {
-  println("Happy birthday!")
+else if lang === "ruby" {
+  println("Yeah!")
 }
 else {
-  println("L'chaim!")
+  println("You fail")
 }
 ```
 
