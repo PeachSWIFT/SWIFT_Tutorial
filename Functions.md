@@ -55,3 +55,5 @@ func makeIncrementer() -> (Int -> Int) {
 var increment = makeIncrementer()
 increment(7)
 ```
+
+[back to index](./README.md)
