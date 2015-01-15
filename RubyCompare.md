@@ -1,5 +1,10 @@
 # Comparing Swift to Ruby
 
+  * [Printing](./RubyCompare.md#printing)
+  * [Declaring Values](./RubyCompare.md#declaring-values)
+  * [Objects/Dictionaries](./RubyCompare.md#objectsdictionaries)
+  * [Conditionals](./RubyCompare.md#conditionals)
+
 Swift, like Ruby, was created out of a need for a more simplified, user-friendly programming language. Therefore, it is very easy to compare (and contrast!) the two. 
 
 ### Printing
@@ -64,3 +69,6 @@ end
 ```swift
 
 ```
+
+
+[back to index](./README.md)
