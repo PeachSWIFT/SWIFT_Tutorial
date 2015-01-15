@@ -55,28 +55,3 @@ func makeIncrementer() -> (Int -> Int) {
 var increment = makeIncrementer()
 increment(7)
 ```
-
-### Closures
-
-The code in a closure has access to things like variables and functions that were available in the scope where the closure was created, even if the closure is in a different scope when it is executed (like with nested functions). You can write a closure without a name by surrounding code with curly braces `{}`. Use `in` to separate the arguments and return type from the body. 
-```swift
-var numbers = [20, 19, 7, 12]
-numbers.map({
-    (number: Int) -> Int in
-    let result = 3 * number
-    return result
-})
-// This returns the numbers array with its values tripled.
-```
-
-When a closure’s type is already known, such as the callback for a delegate, you can omit the type of its parameters, its return type, or both. Single statement closures implicitly return the value of their only statement.
-```swift
-let mappedNumbers = numbers.map({ number in 3 * number })
-mappedNumbers
-```
-
-You can refer to parameters by number instead of by name—this approach is especially useful in very short closures. A closure passed as the last argument to a function can appear immediately after the parentheses.
-```swift
-let sortedNumbers = sorted(numbers) { $0 > $1 }
-sortedNumbers
-```
