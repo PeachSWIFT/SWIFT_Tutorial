@@ -1,5 +1,9 @@
 # Loops
 
+ * [While](./Loops.md#while)
+  * [Do/while](./Loops.md#dowhile)
+ * [For](./Loops.md#for)
+
 ### While
 
 Use `while` to repeat a block of code until a condition changes. The condition of a loop is at the end instead, ensuring that the loop is run at least once.
@@ -63,3 +67,5 @@ for (animal, sound) in farm {               // Notice that you can call keys and
     println("The \(animal) goes \(sound).") // without modifying your dictionary.
 }
 ```
+
+[back to index](./README.md)
