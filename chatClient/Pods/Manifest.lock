@@ -1,0 +1,20 @@
+PODS:
+  - Starscream (0.9.1)
+
+DEPENDENCIES:
+  - Starscream (from `https://github.com/daltoniam/starscream.git`, tag `0.9.1`)
+
+EXTERNAL SOURCES:
+  Starscream:
+    :git: https://github.com/daltoniam/starscream.git
+    :tag: 0.9.1
+
+CHECKOUT OPTIONS:
+  Starscream:
+    :git: https://github.com/daltoniam/starscream.git
+    :tag: 0.9.1
+
+SPEC CHECKSUMS:
+  Starscream: 6fcbd646fc23bbc55bb27d3479eb3a2758abe1e6
+
+COCOAPODS: 0.36.0.beta.1
