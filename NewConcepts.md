@@ -30,15 +30,13 @@ println("One inch is \(oneInch) meters")   // prints "One inch is 0.0254 meters"
 
 Xcode displays emoji's! OH HAPPY DAY!
 
-
-  var 😄 = "Smiley"                                 
-  println(😄) // will print "Smiley"
-  let 🌍 = "🐶🐺🐱🐭"
+```swift
+  var smiley = 😃� = "Smiley"                                 
+  println(smiley) // this will print 😃!�) // will print "Smiley"
+  let 🌎 = "🐶🐺🐱🐭"
   var 🚢: String[] = []
-  for 💕 in 🌍 {
-      🚢.append(💕+💕)
-  }
+  for 💕 in 🌎 {
+    🚢.append(💕+💕)
+}
   println(🚢) // will print [🐶🐶, 🐺🐺, 🐱🐱, 🐭🐭]
-
-
-Swift Emoji:
+```
