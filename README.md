@@ -18,6 +18,7 @@ Swift is Apple's newest programming language for OS X and iOS. It was made as a 
   * [While](./Loops.md#while)
    * [Do/while](./Loops.md#dowhile)
   * [For](./Loops.md#for)
+   * [For/in](./Loops.md#forin)
 * [Functions](./Functions.md)
   * [Closures](./Functions.md#closures)
 * [New Concepts](./NewConcepts.md)
