@@ -1,5 +1,11 @@
 # Basic Syntax
 
+* ["Hello, World!"](./Basics.md#hello-world)
+* [Operators](./Basics.md#operators)
+* [Values: Constants and Variables](./Basics.md#values-constants-and-variables)
+* [Arrays](./Basics.md#arrays)
+* [Dictionaries](./Basics.md#dictionaries)
+
 ### "Hello, world!"
 
 First, of course, we will start by teaching you how to create a simple program that outputs "Hello, World!"
@@ -113,4 +119,4 @@ var emptyDictionary = [:]
 var emptyDictionary = [String: Float]()
 ```
 
-
+[back to index](./README.md)
