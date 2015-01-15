@@ -10,6 +10,7 @@ Swift is Apple's newest programming language for OS X and iOS. It was made as a 
 # Contents
 * [Basic syntax](./Basics.md)
   * ["Hello, World!"](./Basics.md#hello-world)
+  * [Operators](./Basics.md#operators)
   * [Values: Constants and Variables](./Basics.md#values-constants-and-variables)
   * [Arrays](./Basics.md#arrays)
   * [Dictionaries](./Basics.md#dictionaries)
