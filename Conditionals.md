@@ -1,5 +1,8 @@
 # Conditionals
 
+* [If/else](./Conditionals.md#ifelse)
+* [Switch](./Conditionals.md#switch)
+
 ### If/else
 
 If/else is your classic conditional. You do not need brackets for the conditional statement, and the syntax for additional `if` conditions is `else if` (like in JavaScript).
@@ -49,3 +52,5 @@ switch vegetable {
         let vegetableComment = "Everything tastes good in soup."
 }
 ```
+
+[back to index](./README.md)
