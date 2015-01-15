@@ -1,7 +1,7 @@
 ![SWIFT MOFOS](http://dsource.co/wp-content/uploads/2014/09/imageC.png)
 
 # Swift Tutorial
-*by Alvin Liang, Joel Konjin, and Shoshanah Weisinger*
+*by [Alvin Liang](https://github.com/liangalvin), [Joel Konijn](https://github.com/peer00), and [Shoshanah Weisinger](https://github.com/shoshkabob)*
 
 We have attempted to cram our heads with everything Swift in one day. Here is what we know about it!
 
