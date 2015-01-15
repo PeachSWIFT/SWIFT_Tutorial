@@ -67,7 +67,17 @@ end
 ```
 ####Swift
 ```swift
+let age = 24
 
+if age < 21 {
+  println("You can't drink alcohol!")
+}  
+else if age == 21 {
+  println("Happy birthday!")
+}
+else {
+  println("L'chaim!")
+}
 ```
 
 
