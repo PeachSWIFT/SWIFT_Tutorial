@@ -46,7 +46,7 @@ newObject = {
 ```swift
 // Dictionary
 var newDictionary = {
-  "thing": stuff",
+  "thing": "stuff",
   "stuff": "thing"
 }
 ```
