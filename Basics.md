@@ -74,7 +74,7 @@ var hometowns = [
   "Alvin": "New York"
 ]
 
-hometowns["Alvin"] = "" // updates Alvin's hometown
+hometowns["Alvin"] = "Brooklyn" // updates Alvin's hometown
 ```
 
 To initialize an empty dictionary, similar to how you do it with arrays, you can either initialize it implicitly with a pair of square brackets with a colon in the middle `[:]` or you can declare the value type explicitly:
